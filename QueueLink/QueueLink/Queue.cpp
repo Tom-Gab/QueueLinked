@@ -52,6 +52,8 @@ void Queue::dequeue() {
 
 	temp->setNext(nullptr);
 	delete temp;
+
+	size--;
 }
 
 int Queue::getFront()
